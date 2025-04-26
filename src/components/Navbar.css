@@ -1,0 +1,15 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.navbar {
+    height: 10%;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
+    justify-content: space-around;
+    background-color: blue;
+    display: flex;
+    flex-direction: row;
+}
