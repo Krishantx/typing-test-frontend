@@ -1,0 +1,14 @@
+.test-screen {
+    width: 70%;
+    height: 50%;
+}
+.parent {
+    display: flex;
+    justify-content: center;
+}
+
+.test-screen h2 {
+    width: 100%;
+    padding: 5%;
+    color: #A2A7A5;
+}

@@ -1,0 +1,17 @@
+.header {
+    margin: 20px;
+    width: 100%;
+}
+.left-header {
+    display: flex;
+}
+
+.right-header {
+    display: flex;
+    gap: 5%;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}

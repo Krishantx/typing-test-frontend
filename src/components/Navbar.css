@@ -2,14 +2,17 @@
     padding: 0px;
     margin: 0px;
 }
-
+.navbar li {
+    color: black;
+}
 .navbar {
+    width: 60%;
     height: 10%;
     padding: 10px;
     border-radius: 10px;
     margin: 10px;
     justify-content: space-around;
-    background-color: blue;
+    background-color: #948979;
     display: flex;
     flex-direction: row;
 }
