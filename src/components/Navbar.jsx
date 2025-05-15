@@ -1,6 +1,8 @@
 import MiddleBar from "./MiddleBar"
 import Seperator from "./Seperator"
+import { FaLongArrowAltRight } from "react-icons/fa";
 import "./Navbar.css"
+import Arrow from "./navbar-components/Arrow";
 import { useState } from "react";
 
 function Navbar() {
@@ -21,7 +23,7 @@ function Navbar() {
     return (
         <div className="parent">
     <div className = "navbar">
-        <li onMouseEnter={showTime}>time</li>
+        <li onMouseEnter={showTime}><Arrow /> time</li>
         <li onMouseEnter={showWords}>words</li>
         <li onMouseEnter={showCustom}>custom test</li>
 

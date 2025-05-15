@@ -3,6 +3,7 @@
     margin: 0px;
 }
 .navbar li {
+    list-style: none;
     color: black;
 }
 .navbar {
